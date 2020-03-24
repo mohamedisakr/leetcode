@@ -1,16 +1,22 @@
 {
   "name": "leetcode",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage --reporters default jest-stare"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "jest-stare": "^1.26.0",
+    "minimist": "^1.2.5"
   }
 }
